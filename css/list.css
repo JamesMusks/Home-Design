@@ -1,0 +1,122 @@
+/* 
+* @Author: anchen
+* @Date:   2016-01-09 10:38:07
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-07-19 20:30:56
+*/
+.banner{
+    height: 231px;
+    width: 1026px;
+    margin: 0 auto;
+    margin-top: 6px;
+    background:url(../img/listbanner.jpg!w1026) no-repeat;
+}
+.biaoti{
+    background:url(../img/title-4.png) no-repeat;
+    width: 1024px;
+    height: 71px;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+.neijing{
+    height: 42px;
+    line-height: 42px;
+    color:#333333;
+    font-size: 16px;
+}
+.waijing{
+    height: 35px;
+    color:#333333;
+    font-size: 16px;
+}
+.allpic{
+    float: left;
+    width: 780px;
+}
+.listpic ul li{
+    height: 335px;
+    width: 780px;
+}
+.listpic ul{
+    width: 780px;
+}
+.listpic ul li a{
+    height: 300px;
+    width: 780px;
+    position: relative; 
+    display: block;
+    overflow:hidden;
+}
+.listpic ul li a img{
+    margin-top:-10px;
+}
+.listpic ul li a img.special{
+    margin-top: 0;
+}
+.listpic ul li a img.special02{
+    margin-top:-110px;
+}
+.listpic ul li a .wenzi{
+    position:absolute;
+    left:0;bottom:0;
+    height: 75px;
+    width: 760px;
+    background:rgba(0,0,0,0.5);
+    font-size: 18px;
+    color:#fff;
+    line-height: 75px;
+    padding-left: 20px;
+}
+.listpic ul li a .wenzi span{
+    font-size: 26px;
+    color:#F6CD13;
+    position:absolute;
+    right:105px;top:0;
+}
+.listpic ul li a i{
+    height: 75px;
+    width: 75px;
+    display:inline-block;
+    position:absolute;
+    right: 0;
+    bottom:0;
+    font-size: 42px;
+    color:#fff;
+    line-height: 75px;
+    text-align: center;
+}
+.listpic ul li a i em{
+    width: 0;
+    height: 0;
+    border: 10px solid #A98251;
+    border-width: 10px;
+    border-style:dashed solid dashed dashed;
+    border-color:transparent #A98251 transparent transparent;
+    position:absolute;
+    left:-20px;
+    top:27px;
+}
+.listpic ul li p{
+    height: 35px;
+    background:url(../img/like-shadow.png) no-repeat left 15px;
+}
+.listpic{
+    position:relative;
+}
+.litpic{
+    float: right;
+}
+.littlepic{
+    margin-top:132px;
+    background: #000;
+}
+.littlepic02{
+    position:fixed;
+    top: 0;
+}
+.littlepic img{
+    display:block;
+}
+.footer{
+    margin-top: 30px;
+}

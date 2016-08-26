@@ -1,0 +1,96 @@
+
+.biaoti{
+    background:url(../img/title-5.png) no-repeat;
+    width: 1024px;
+    height: 71px;
+    margin:23px auto;
+}
+.dressContent{
+    margin:0 auto;
+    width:1026px;
+    height:776px;
+}
+.dressLeft{
+    width:780px;
+    height:776px;
+    float: left;
+}
+.dressLeft li,.dressLeft a{
+    width:255px;
+    height:380px;
+    float: left;
+    margin:0px 0px 8px 5px;
+    position: relative;
+    overflow: hidden;
+}
+.dressLeft li i{
+    width:26px;
+    height:26px;
+    position: absolute;
+    opacity:.5;
+    z-index: 3;
+}
+.dressLeft li .qq{
+    background:url("../img/fenxiang01.png") no-repeat;
+    top:4px;
+    left:86px;
+}
+.dressLeft li .favourate{
+    background:url("../img/fenxiang02.png") no-repeat;
+    top:8px;
+    left:132px;
+}
+.dressLeft li .chating{
+    background:url("../img/fenxiang03.png") no-repeat;
+    top:6px;
+    left:176px;
+}
+.dressLeft li .share{
+    background:url("../img/fenxiang04.png") no-repeat;
+    top:6px;
+    left:220px;
+}
+.dressLeft li img{
+    width:100%;
+    height:100%;
+    float: left;
+    padding:0px 5px 8px 0px;
+    transition: all 1s;
+}
+/*.dressLeft li,.dressLeft a:hover{*/
+    /*width:255px;*/
+    /*height:380px;*/
+    /*overflow: hidden;*/
+/*}*/
+.dressLeft li img:hover{
+    transform:scale(1.3,1.3);
+}
+.dressLeft li .telling{
+    width:255px;
+    height:30px;
+    background-color: #9A7749;
+    opacity:.6;
+    text-align: center;
+    line-height: 30px;
+    color:#ffffff;
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+    transition: all 1s;
+}
+.dressRight{
+    width:236px;
+    height:380px;
+    float: left;
+    margin-left:10px;
+}
+.dressRight a img{
+    width:236px;
+    transition:1s;
+}
+.dressRight a img:hover{
+    transform:scale(0.5,0.5);
+}
+.footer{
+    margin-top:30px;
+}

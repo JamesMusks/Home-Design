@@ -1,0 +1,64 @@
+
+.trAvel{
+    margin-top: 9px;
+    /*text-align: center;*/
+}
+.trAvelBox{
+    height: 395px;
+    width: 1026px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+    /*background:url("../img/pujiedao.jpg");*/
+}
+.trAvelBox .trfooter{
+    height: 50px;
+    background-color:rgba(0,0,0,0.5);
+    width: 901px;
+    line-height: 50px;
+    position: absolute;
+    bottom: -50px;
+    display:block;
+    /*color:#fff;*/
+    font-size: 18px;
+    padding: 0 105px 0 20px;
+    transition: all .5s ease-in ;
+}
+.trAvelBox a{
+    color:#fff;
+}
+.trAvelBox img{
+    width: 1026px;
+    height: 395px;
+    transition: all 1.5s;
+}
+.trshadow{
+    margin-bottom: 5px;
+}
+.trAvelBox:hover{
+    box-shadow: .5px 5px 20px gray;
+}
+.trAvelBox:hover .trfooter{
+    transition: all .5s ease-in ;
+    bottom: 0;
+}
+.trAvelBox:hover img{
+    transform: scale(1.15,1.15);
+}
+.more{
+    text-align: center;
+}
+.more_a{
+    background-color: #f7f7f7;
+    height: 30px;
+}
+.more_a a{
+    padding-top: 4px;
+    display: block;
+    line-height: 24px;
+}
+.more_a:hover{
+    transition: all .5s ease-in ;
+    box-shadow: 1px 1px 1px gray;
+}

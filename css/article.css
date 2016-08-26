@@ -1,0 +1,160 @@
+/* 
+* @Author: anchen
+* @Date:   2016-01-09 17:00:47
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-07-19 17:33:44
+*/
+/*banner*/
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/font_1439186096_5052276.eot'); /* IE9*/
+    src: url('../fonts/font_1439186096_5052276.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/font_1439186096_5052276.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/font_1439186096_5052276.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/font_1439186096_5052276.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.banner{
+    height: 231px;
+    width:1026px;
+    position:relative;
+    left:50%;
+    margin-left: -513px;
+    margin-top: 6px;
+}
+.location{
+    height: 60px;
+    line-height: 60px;
+}
+.location span{
+    margin:0 19px 0 16px;
+    color:#231F20;
+}
+.titpic{
+    height: 168px;
+    width: 1014px;
+    border: 6px solid #231714;
+    margin: 0 auto;
+    margin-bottom: 78px;
+}
+.titpic .articletit{
+    float: left;
+}
+.titpic .titinpic{
+    float: right;
+    width: 381px;
+    overflow: hidden;
+}
+.titpic .titinpic img{
+    float: right;
+    margin-right: -32px;
+}
+.titpic span{
+    width: 166px;
+    height: 168px;
+    display:inline-block;
+    padding:0 15px;
+}
+.titpic span .bigtit{
+    padding:6px 0 5px 0;
+    width: 170px;
+    display:inline-block;
+    font-size: 18px;
+    color:#A98251;
+    border-bottom: 1px solid #5C3A38;
+}
+.titpic span .bigtit02{
+    color:#999999;
+    display:block;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+}
+.titpic span .heart,.titpic span .yuyin{
+    width: 34px;
+    height: 15px;
+    display:inline-block;
+    color:#C55527;
+    font-size: 14px;
+    line-height: 15px;
+    margin-right: 25px;
+}
+.titpic span .heart img,.titpic span .yuyin img{
+    margin-right: 6px;
+    line-height: 15px;
+    cursor: pointer;
+    float: left;
+}
+.zhuti{
+    position: relative;
+    width: 1026px;
+    margin: 0 auto;
+}
+.zhuti span{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+    left: 0;top:0;
+    background:rgba(255,204,102,0.8);
+    font-size: 20px;text-align: center;
+    line-height: 100px;
+    color:red;display:none;
+ }
+.share img{
+    margin-right: 19px;
+     cursor:pointer;
+ }
+.share{
+    height: 50px;
+    line-height: 50px;
+    width:194px;
+    position:absolute;
+    right:0;bottom:0;
+}
+.zhuti{
+    position:relative;
+}
+.pages{
+    height: 74px;
+    line-height: 74px;
+    float: right;
+}
+.pages i{
+    font-size: 14px;
+    color:#231714;
+}
+.pages a i{
+    color:#A98251;
+    margin: 0 11px;
+}
+.wrap .pages a{
+    color:#231714;
+    font-size: 14px;
+}
+.wrap .pages a em{
+    font-family:"iconfont";
+    color:#231714;
+    margin: 0 10px;
+}
+.others{
+    height: 160px;
+    background:#F7F6F8;
+    padding-top: 9px;
+    margin-bottom: 30px;
+}
+.others p{
+    font-size: 16px;
+    color:#333333;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+}
+.others li{
+    float: left;
+    width: 249px;
+    height: 96px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.others li.special{
+    margin-right: 0;
+}
